@@ -2,6 +2,8 @@
 
 [![A visualization of swirling winds over the United States and Canada](https://fluid-earth.byrd.osu.edu/images/banner.png)](https://fluid-earth.byrd.osu.edu/#gdata=wind+speed+at+500+mb&pdata=wind+at+500+mb&smode=false)
 
+## Test
+https://main--prismatic-cupcake-d057e6.netlify.app/#date=2024-04-01T00%3A00%3A00.000Z&gdata=average+temperature+at+2+m+above+ground&pdata=none&proj=vertical+perspective&lat=50.55&lon=-0.14&zoom=9.17&smode=true&kmode=false&pins=%5B%5D
 ## Development
 
 ### Frontend-only setup
@@ -47,7 +49,7 @@ Similarly, [create an account](https://urs.earthdata.nasa.gov/users/new) to
 access Earthdata, and add your username and password to `.env`:
 
 ```env
-EARTHDATA_LOGIN=nbelkhir:R0gerrabbit!!
+EARTHDATA_LOGIN=XXXXX:XXXXX
 ```
 
 Finally, in a separate terminal tab/window:
@@ -72,10 +74,3 @@ pnpm run preview
 git pull https://github.com/
 pnpm install
 ```
-
-## Web component
-
-mirai comes with a lightweight web component which can be included in
-webpage contexts where the full application is not needed. Refer to the
-[documentation](webcomponent/README.md) for more info on using the
-web component.
